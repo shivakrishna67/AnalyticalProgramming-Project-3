@@ -23,7 +23,9 @@ Matplotlib and Seaborn: Data visualization to create insightful plots and charts
 Project Structure
 
 ## The project structure is organized as follows:
-* data/: Contains the dataset used in the analysis.
-* notebooks/: Jupyter notebooks detailing the step-by-step analysis process.
-* scripts/: Python scripts for specific functions or analyses.
-* visualizations/: Saved visualizations generated during the analysis.
+* Introduction/: This section holds the dataset utilized for the analysis, providing the foundational information for the project.
+* Data Summary/: Within this directory, Jupyter notebooks are available, offering a step-by-step walkthrough of the data analysis process. These notebooks present a comprehensive summary of the data.
+* Exploratory Data Analysis/: In this directory, Python scripts are organized, each serving a specific function or contributing to various analyses. These scripts collectively form the core of the exploratory data analysis.
+* Inference/: In this section we have answered some of the research question. the analysis included  using both Matplotlib and Seaborn. Included a narrative explaination to our research approach and findings,Included Python code as part of our work.
+* Conclusion/: Summarizes the findings and insights drawn from the analysis. It provides a cohesive overview of the project's outcomes.
+* References/: This section contains any references or citations used in the project. It provides a list of sources, datasets, or literature that contributed to the analysis.
