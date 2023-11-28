@@ -11,7 +11,9 @@ The primary objectives of this project are:
 * Comparative Analysis: Compare the motor vehicle crash data in NYC to national averages or other urban areas to identify unique characteristics and potential areas for improvement.
 
 ## Dataset
-The dataset used for this analysis is sourced from [provide the source or link to the dataset]. It includes [mention key columns and information included, e.g., date, time, location, contributing factors, etc.].
+Our journey begins with the requisite preparation, importing the essential Python libraries. The 'sodapy' library, in particular, stands out, as it facilitates seamless interaction with the Socrata API. The introductory print statements signal the initiation of this data-fetching adventure.
+
+The subsequent steps involve setting up the Socrata API client, a gateway to the treasure trove of NYC Open Data. The endpoint, "data.cityofnewyork.us," serves as our portal to the dataset of interest, identified by the unique identifier "h9gi-nx95." The 'get' method of the Socrata client is enlisted to retrieve the data. It's noteworthy that a limit of 180,030 is imposed, a strategic decision informed by the data description suggesting a more extensive dataset than the default 1,000 observations.
 
 ## Tools and Libraries
 The analysis is performed using Python programming language and utilizes popular data analysis and visualization libraries, including:
